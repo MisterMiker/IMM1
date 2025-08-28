@@ -8,7 +8,8 @@ from PIL import Image
 import base64
 
 st.title("Conversión de Texto a Audio")
-image = Image.open('gato_raton.png')
+image = Image.open('ddhm0xw-fa233b3f-cda4-4c62-981c-6527ea36ac73.png
+')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
