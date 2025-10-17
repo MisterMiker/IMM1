@@ -40,9 +40,10 @@ except:
 
 st.subheader("Una pequeña prueba. Copia y pega el siguiente texto")
 st.write(
-    'Humpty Dumpty se sentó en un muro,
-Humpty Dumpty tuvo una gran caída.
-Ni todos los caballos del rey ni todos los hombres del rey pudieron reconstruir a Humpty.'
+    "Humpty Dumpty se sentó en un muro,"
+    "Humpty Dumpty tuvo una gran caída,"
+    "Ni todos los caballos del rey ni todos los hombres del rey"
+    "pudieron reconstruir a Humpty"
 )
 
 st.markdown("¿Quieres escucharlo?, copia el texto")
