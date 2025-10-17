@@ -31,20 +31,18 @@ image = Image.open('ddhm0xw-fa233b3f-cda4-4c62-981c-6527ea36ac73.png')
 st.image(image, width=350)
 
 with st.sidebar:
-    st.subheader("Escribe y/o selecciona texto para ser escuchado.")
+    st.subheader("Escribe aquí el texto que gustarías escuchar")
 
 try:
     os.mkdir("temp")
 except:
     pass
 
-st.subheader("Una pequeña Fábula.")
+st.subheader("Una pequeña prueba. Copia y pega el siguiente texto")
 st.write(
-    '¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '
-    'Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. '
-    'Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '
-    'la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato... y se lo comió. '
-    'Franz Kafka.'
+    'Humpty Dumpty se sentó en un muro,
+Humpty Dumpty tuvo una gran caída.
+Ni todos los caballos del rey ni todos los hombres del rey pudieron reconstruir a Humpty.'
 )
 
 st.markdown("¿Quieres escucharlo?, copia el texto")
